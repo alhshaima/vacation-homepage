@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Rush</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Sugar Rush</h1>
+        <p>Princess Vanellope's Queendom</p>
+
+        <nav>
+
+            <a href="#about">About</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+        
+    </header>
+
+    <main>
+
+        <section id="about">
+
+            <h2>Join us in Sugar Rush</h2>
+
+            <img src="images/sugarrushmain.jpg"
+            alt="Candy Cane Forest in Sugar Rush">
+
+            <article>
+                <h3>Welcome to Sugar Rush!</h3>
+
+                <p>
+                    Sugar Rush is the land of Candy! Ruled by Princess Vanellope,
+                     it is the place of your dreams!
+                </p>
+            </article>
+            
+        </section>
+
+        <section id="packages">
+
+            <h2>Travel Packages</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Diet Cola Mountain</td>
+                        <td>3 Days</td>
+                        <td>$399</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nougat Mines</td>
+                        <td>5 Days</td>
+                        <td>$799</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sugar Rush Castle</td>
+                        <td>7 Days</td>
+                        <td>$1,499</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Plan your Trip</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="package">Select a Package:</label>
+
+                <select id="package" name="package">
+                    <option value="">Choose a package</option>
+                    <option value="mountain">Diet Cola Mountain</option>
+                    <option value="mines">Nougat Mines</option>
+                    <option value="castle">Sugar Rush Castle</option>
+                </select>
+
+                <label for="comments">Questions or Comments:</label>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>2026 Sugar Rush by Shaima Al-Harethi</p>
+        
+    </footer>
+
+</body>
+
+</html>
